@@ -1,0 +1,509 @@
+@media (max-width: 768px){
+    * {
+        padding: 0;
+        margin: 0;
+
+        background-image: url(/img/building.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 9150px;
+    }
+
+    .bodyimg img {
+        display: none;
+    }
+
+    #navbar {
+        background-image: none;
+    }
+
+    .navbar-logo img {
+        background-image: none;
+
+    }
+
+    .navbar-logo a {
+        background-image: none;
+    }
+
+
+    #oggyseasoncontent {
+        /* position: absolute; */
+        position: relative;
+        top: 30px;
+        left: 20px;
+        width: 80%;
+        height: 4065px;
+        background-image: none;
+    }
+    #oggyseason img{
+        width: 100%;
+        height: 500px;
+    }
+
+
+    #oggyseason h2 {
+        position: absolute;
+        top: 1600px;
+        /* left: -311px; */
+        background-image: none;
+
+    }
+
+    #oggyseason p {
+        background-image: none;
+
+    }
+
+    #s1 {
+        position: absolute;
+        top: 1650px;
+        left: 20px;
+        width: 90%;
+        /* border: 5px solid black; */
+        height: 4.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+
+
+    }
+
+    #s1 img {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        top: 0;
+        left: 0;
+
+    }
+
+    #s1 p {
+        position: absolute;
+        top: 222px;
+        left: auto;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+
+    }
+
+    #buttons1 {
+        padding: 15px 30px;
+        background-color: #ac0000;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 237px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+
+    }
+
+
+    #s2 {
+        position: absolute;
+        top: 1950px;
+        left: 20px;
+        width: 90%;
+        /* border: 5px solid black; */
+        height: 4.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s2 img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 200px;
+
+    }
+
+    #s2 p {
+        position: absolute;
+        top: 222px;
+        left: auto;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+    }
+
+    #buttons2 {
+        padding: 15px 30px;
+        background-color: #ac0000;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 237px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s3 {
+        position: absolute;
+        top: 2250px;
+        left: 20px;
+        width: 90%;
+        /* border: 5px solid black; */
+        height: 4.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s3 img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 200px;
+    }
+
+    #s3 p {
+        position: absolute;
+        top: 222px;
+        left: auto;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+    }
+
+    #buttons3 {
+        padding: 15px 30px;
+        background-color: #ac0000;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 237px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s4 {
+        position: absolute;
+        top: 2550px;
+        left: 20px;
+        width: 90%;
+        /* border: 5px solid black; */
+        height: 4.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+
+    }
+
+    #s4 img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 200px;
+
+    }
+
+    #s4 p {
+        position: absolute;
+        top: 222px;
+        left: auto;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+
+    }
+
+    #buttons4 {
+        padding: 15px 30px;
+        background-color: #ac0000;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 237px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+
+    }
+
+    #s5 {
+        position: absolute;
+        top: 2850px;
+        left: 20px;
+        width: 90%;
+        /* border: 5px solid black; */
+        height: 4.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+
+    }
+
+    #s5 img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 200px;
+
+    }
+
+    #s5 p {
+        position: absolute;
+        top: 222px;
+        left: auto;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+
+    }
+
+    #buttons5 {
+        padding: 15px 30px;
+        background-color: #ac0000;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 237px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+
+    }
+
+    #s6 {
+        position: absolute;
+        top: 3150px;
+        left: 20px;
+        width: 90%;
+        /* border: 5px solid black; */
+        height: 4.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s6 img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 200px;
+
+    }
+
+    #s6 p {
+        position: absolute;
+        top: 222px;
+        left: auto;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+    }
+
+    #buttons6 {
+        padding: 15px 30px;
+        background-color: #ac0000;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 237px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s7 {
+        position: absolute;
+        top: 3450px;
+        left: 20px;
+        width: 90%;
+        /* border: 5px solid black; */
+        height: 4.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s7 img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 200px;
+
+    }
+
+    #s7 p {
+        position: absolute;
+        top: 222px;
+        left: auto;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+    }
+
+    #buttons7 {
+        padding: 15px 30px;
+        background-color: #ac0000;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 237px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s8 {
+        position: absolute;
+        top: 3750px;
+        left: 20px;
+        width: 90%;
+        /* border: 5px solid black; */
+        height: 4.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+
+    #s8 img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 200px;
+
+    }
+
+    #s8 p {
+        position: absolute;
+        top: 222px;
+        left: auto;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+    }
+
+    #buttons8 {
+        padding: 15px 30px;
+        background-color: #ac0000;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 237px;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+    }
+    #footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        /* padding: 20px 0; */
+        position: relative;
+        top: 0px;
+        /* bottom: 0; */
+        /* margin-top: 0px; */
+        width: 100%;
+        height: 56px;
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footercontent {
+        background-image: none;
+    }
+
+    .footercontent p {
+        background-image: none;
+    }
+
+    .footercontent a {
+        background-image: none;
+        color: #00ffde;
+        padding: 1px;
+        margin: 0px;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+}
