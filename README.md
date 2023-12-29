@@ -1,363 +1,94 @@
-// app.js
-const express = require('express');
-const app = express();
-const port = 8000;
+<!DOCTYPE html>
+<html lang="en">
 
-app.use(express.static('public'));
-app.use(express.urlencoded({ extended: true }));
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/res-style.css">
+    <link rel="stylesheet" href="/css/res-home.css">
 
+    <title>Comictoons</title>
+</head>
 
-app.get('/js/resp.js', (req, res) => {
-    res.sendFile(__dirname + '/js/resp.js');
-});
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a class="logoimg" href="/"><img src="/img/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="title">Comictoons</div>
+        <ul class="navbar-links">
+            <li><a href="/">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Popular Toons &#9661;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="doraemon.html">Doraemon</a></li>
+                    <li><a href="oggy.html">Oggy and the Cockroches</a></li>
+                    <li><a href="shinchan.html">Shinchan</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button class="search-button">&#128269;</button>
+        </div> -->
 
-// HTMLs
-
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/html/base.html');
-});
-app.get('/home.html', (req, res) => {
-    res.sendFile(__dirname + '/html/home.html');
-});
-app.get('/about.html', (req, res) => {
-    res.sendFile(__dirname + '/html/about.html');
-});
-app.get('/contact.html', (req, res) => {
-    res.sendFile(__dirname + '/html/contact.html');
-});
-app.get('/doraemon.html', (req, res) => {
-    res.sendFile(__dirname + '/html/doraemon.html');
-});
-app.get('/oggy.html', (req, res) => {
-    res.sendFile(__dirname + '/html/oggy.html');
-});
-app.get('/shinchan.html', (req, res) => {
-    res.sendFile(__dirname + '/html/shinchan.html');
-});
-
-
-
-
-
-
-// IMAGEs
-
-app.get('/img/logo.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/logo.jpg');
-});
-app.get('/img/building.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/building.jpg');
-});
-
-
-// DORAEMON IMAGES
-
-app.get('/img/doraemon.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon.jpg');
-});
-app.get('/doraemons1.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons1.jpg');
-});
-app.get('/doraemons2.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons2.jpg');
-});
-app.get('/doraemons3.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons3.jpg');
-});
-app.get('/doraemons4.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons4.jpg');
-});
-app.get('/doraemons5.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons5.jpg');
-});
-app.get('/doraemons6.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons6.jpg');
-});
-app.get('/doraemons7.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons7.jpg');
-});
-app.get('/doraemons8.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons8.jpg');
-});
-app.get('/doraemons9.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons9.jpg');
-});
-app.get('/doraemons10.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons10.jpg');
-});
-app.get('/doraemons11.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons11.jpg');
-});
-app.get('/doraemons12.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons12.jpg');
-});
-app.get('/doraemons13.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons13.jpg');
-});
-app.get('/doraemons14.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons14.jpg');
-});
-app.get('/doraemons15.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons15.jpg');
-});
-app.get('/doraemons16.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons16.jpg');
-});
-app.get('/doraemons17.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons17.jpg');
-});
-app.get('/doraemons18.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons18.jpg');
-});
-app.get('/doraemons19.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons19.jpg');
-});
-app.get('/doraemons20.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/doraemon img/doraemons20.jpg');
-});
+        <div class="search-box">
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" name="query" id="search-input" placeholder="Search">
+                <button type="submit" class="search-button">&#128269;</button>
+            </form>
+        </div>
+        <div class="navbar-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+    <div class="bodyimg"><img src="\img\building.jpg" alt="body"></div>
 
 
-// OGGY IMAGES
-app.get('/img/oggy.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy.jpg');
-});
-app.get('/oggys1.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy img/oggys1.jpg');
-});
-app.get('/oggys2.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy img/oggys2.jpg');
-});
-app.get('/oggys3.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy img/oggys3.jpg');
-});
-app.get('/oggys4.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy img/oggys4.jpg');
-});
-app.get('/oggys5.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy img/oggys5.jpg');
-});
-app.get('/oggys6.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy img/oggys6.jpg');
-});
-app.get('/oggys7.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy img/oggys7.jpg');
-});
-app.get('/oggys8.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/oggy img/oggys8.jpg');
-});
+    <div class="contentshinchan">
+        <div id="shinchan">
+            <img src="\img\shinchan.jpg" alt="Shinchan">
+            <li><a href="shinchan.html">Shinchan All Season {Hindi} Episodes Download (1080p)</a></li>
+            <p>Shinchan All Seasons in Hindi Download, Shinchan All Seasons Hindi Dubbed Download, Download
+                Shinchan <br> All Seasons in Hindi, Shinchan All Episodes in Hindi Download. Check out All
+                Shinchan Movies Here.</p>
+        </div>
+    </div>
+
+    <div id="contentdoraemon">
+        <div id="doraemon">
+            <img src="/img/doraemon.jpg" alt="Doraemon">
+            <li><a href="doraemon.html">Doraemon All Season {Hindi} Episodes Download (1080p)</a></li>
+            <p>Doraemon All Seasons in Hindi Download, Doraemon All Seasons Hindi Dubbed Download, Download
+                Doraemon <br> All Seasons in Hindi, Doraemon All Episodes in Hindi Download. Check out All
+                Doraemon Movies Here.</p>
+        </div>
+    </div>
+
+    <div id="contentoggy">
+        <div id="oggy">
+            <img src="/img/oggy.jpg" alt="oggy">
+            <li><a href="oggy.html">Oggy and the Cockroaches All Season {Hindi} Episodes</a></li>
+            <p>Oggy And The Coackroaches All Season hindi Online, Oggy and the Cockroaches All Season Episodes
+                in Hindi DDP2.0<br> 480p, 720p and 1080p HD WEB-DL | 10bit HEVC, Oggy and the Cockroaches All
+                Season Hindi Dubbed Episodes<br> Download/Watch Online, Oggy and the Cockroaches All Season
+                Hindi Dubbed Episodes Download</p>
+        </div>
+    </div>
 
 
-// SHINCHAN IMAGES
-app.get('/img/shinchan.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan.jpg');
-});
-app.get('/shinchans1.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans1.jpg');
-});
-app.get('/shinchans2.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans2.jpg');
-});
-app.get('/shinchans3.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans3.jpg');
-});
-app.get('/shinchans4.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans4.jpg');
-});
-app.get('/shinchans5.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans5.jpg');
-});
-app.get('/shinchans6.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans6.jpg');
-});
-app.get('/shinchans7.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans7.jpg');
-});
-app.get('/shinchans8.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans8.jpg');
-});
-app.get('/shinchans9.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans9.jpg');
-});
-app.get('/shinchans10.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans10.jpg');
-});
-app.get('/shinchans11.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans11.jpg');
-});
-app.get('/shinchans12.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans12.jpg');
-});
-app.get('/shinchans13.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans13.jpg');
-});
-app.get('/shinchans14.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans14.jpg');
-});
-app.get('/shinchans15.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/shinchan img/shinchans15.jpg');
-});
+    <footer id="footer">
+        <div class="footercontent">
+            <p> Copyright © 2023, All Rights Reserved by <a href="/">ComicToons</a> </p>
+        </div>
+    </footer>
+    <script src="/js/resp.js"></script>
+</body>
 
-// CONTACT IMAGEs
-
-app.get('/fb-logo.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/contact img/fb-logo.jpg');
-});
-app.get('/gmail.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/contact img/gmail.jpg');
-});
-app.get('/instagram.jpg', (req, res) => {
-    res.sendFile(__dirname + '/img/contact img/instagram.jpg');
-});
-
-
-// CSSs
-
-app.get('/css/contact.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/contact.css');
-});
-
-app.get('/css/style.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/style.css');
-});
-app.get('/css/res-style.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/res-style.css');
-});
-app.get('/css/home.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/home.css');
-});
-app.get('/css/res-home.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/res-home.css');
-});
-app.get('/css/about.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/about.css');
-});
-
-app.get('/css/doraemon.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/doraemon.css');
-});
-app.get('/css/oggy.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/oggy.css');
-});
-app.get('/css/res-dorae.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/res-dorae.css');
-});
-app.get('/css/res-oggy.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/res-oggy.css');
-});
-app.get('/css/res-shin.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/res-shin.css');
-});
-app.get('/css/shinchan.css', (req, res) => {
-    res.header('Content-Type', 'text/css');
-    res.sendFile(__dirname + '/css/shinchan.css');
-});
-
-
-
-
-
-// FORMs
-
-app.post('/submit_form', (req, res) => {
-    const { name, email, message } = req.body;
-    // Process the form data here (you can save it to a database, send an email, etc.)
-    console.log(`Received form submission: \nName - ${name}, \nEmail - ${email}, \nMessage - ${message}`);
-    res.send('Thanks for Contacting Us ');
-});
-
-// SEARCH
-
-
-// app.js
-
-if (typeof window !== 'undefined' && window.document)
-    document.addEventListener('DOMContentLoaded', function () {
-        const searchForm = document.getElementById('search-form');
-        const searchResultsContainer = document.getElementById('search-results');
-
-        searchForm.addEventListener('submit', function (event) {
-            event.preventDefault();
-
-            const query = document.getElementById('search-input').value;
-
-            // Use Fetch API to send the search query to the server
-            fetch(`/search?query=${encodeURIComponent(query)}`)
-                .then(response => response.json())
-                .then(data => {
-                    // Display search results in the searchResultsContainer
-                    displaySearchResults(data);
-                })
-                .catch(error => {
-                    console.error('Error fetching search results:', error);
-                });
-        });
-
-        function displaySearchResults(results) {
-            // Clear previous results
-            searchResultsContainer.innerHTML = '';
-
-            // Display results in the searchResultsContainer
-            results.forEach(result => {
-                const resultItem = document.createElement('div');
-                resultItem.innerHTML = `
-                <h2>${result.title}</h2>
-                <p>${result.description}</p>
-            `;
-                searchResultsContainer.appendChild(resultItem);
-            });
-        }
-    });
-
-const searchData = [
-    { title: 'Shinchan Season', link: '/html/shinchan.html' },
-    { title: 'Doraemon Season', description: 'Doraemon All Seasons in Hindi Download, ...' },
-    { title: 'Oggy and the Cockroaches Season', description: 'Oggy And The Coackroaches All Season hindi Online, ...' },
-];
-
-// Serve HTML file
-app.get('/search', (req, res) => {
-    const query = req.query.query || '';
-
-    // Filter data based on the search query (you might use a database for this)
-    const results = searchData.filter(item =>
-        item.title.toLowerCase().includes(query.toLowerCase()) ||
-        (item.description && item.description.toLowerCase().includes(query.toLowerCase()))
-    );
-
-    // Send the results as JSON
-    res.json(results);
-});
-
-
-
-function displaySearchResults(results) {
-    // Clear previous results
-    searchResultsContainer.innerHTML = '';
-
-    // Display results in the searchResultsContainer
-    results.forEach(result => {
-        const resultItem = document.createElement('div');
-        resultItem.innerHTML = `
-            <h2><a href="${result.link}">${result.title}</a></h2>
-            <p>${result.description || ''}</p>
-        `;
-        searchResultsContainer.appendChild(resultItem);
-    });
-}
-
-// PORT
-
-app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
-});
+</html>
