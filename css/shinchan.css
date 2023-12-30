@@ -1,0 +1,613 @@
+.bodyimg img{
+    width: 100%;
+    height: 6871px;
+}
+#shinchanseasoncontent {
+    padding: 20px;
+    position: absolute;
+    top: 90px;
+    width: auto;
+    left: 16%;
+    right: 16%;
+    height: 6800px;
+    background-color: white;
+}
+
+/* Style for the box container */
+#shinchanseason {
+    display: flex;
+    flex-direction: row; /* Make items appear horizontally */
+    align-items: center; /* Center items vertically */
+    /* position: absolute; */
+    
+}
+
+/* Style for the image */
+#shinchanseason img {
+    width: 100%;
+    height: 500px;
+}
+
+/* Style for the link */
+/* #shinchanseason a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+    margin-left: 20px; /* Add spacing between image and link */
+/* } */
+
+/* Style for the paragraph */
+#shinchanseason p {
+    margin-top: -20px;
+    font-size: 18px;
+    color: #333;
+    top: 600px;
+    position: absolute;
+    /* position: relative; */
+    background-color: white;
+    padding-right: 18px;
+
+    display: flex;
+    flex-direction: row;
+}
+#shinchanseason h2{
+    position: absolute;
+    background: white;
+    top: 1265px;
+    
+    /* position: relative; */
+    /* left: -886px; */
+    /* margin-top: 482px; */
+    /* margin-left: 10px; */
+    /* left: -885px; */
+    /* margin-bottom: 0px; */
+}
+#s1{
+    display: flex;
+    /* position: absolute;
+    margin-top: 3300px;
+    left: 16%;
+    right: 16%; */
+}
+
+#s1 img {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 1360px;
+    left: 300px; 
+    /* width: 100%; */
+    height: 200px;
+    /* position: relative; */
+    /* top: 0; */
+    /* left: 0; */
+    /* margin-top: 3300px; */
+    /* left: 16%; */
+    /* right: 16%; */
+}
+#s1 p{
+    position: absolute;
+    top: 1592px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons1 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 1625px;
+    left: 440px;
+}
+#buttons1:hover {
+    background-color: #580202;
+}
+#s2{
+    display: flex;
+}
+
+#s2 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 1725px;
+    left: 300px;
+}
+#s2 p{
+    position: absolute;
+    top: 1957px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons2 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 1990px;
+    left: 440px;
+}
+#buttons2:hover {
+    background-color: #580202;
+}
+
+#s3 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 2090px;
+    left: 300px;
+}
+#s3 p{
+    position: absolute;
+    top: 2322px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons3 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 2355px;
+    left: 440px;
+}
+#buttons3:hover {
+    background-color: #580202;
+}
+
+#s4 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 2455px;
+    left: 300px;
+}
+#s4 p{
+    position: absolute;
+    top: 2687px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons4 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 2710px;
+    left: 440px;
+}
+#buttons4:hover {
+    background-color: #580202;
+}
+
+#s5 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 2810px;
+    left: 300px;
+}
+#s5 p{
+    position: absolute;
+    top: 3052px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons5 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 3085px;
+    left: 440px;
+}
+#buttons5:hover {
+    background-color: #580202;
+}
+
+#s6 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 3185px;
+    left: 300px;
+}
+#s6 p{
+    position: absolute;
+    top: 3417px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons6 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 3440px;
+    left: 440px;
+}
+#buttons6:hover {
+    background-color: #580202;
+}
+
+#s7 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 3540px;
+    left: 300px;
+}
+#s7 p{
+    position: absolute;
+    top: 3782px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons7 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 3815px;
+    left: 440px;
+}
+#buttons7:hover {
+    background-color: #580202;
+}
+
+#s8 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 3915px;
+    left: 300px;
+}
+#s8 p{
+    position: absolute;
+    top: 4147px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons8 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 4180px;
+    left: 440px;
+}
+#buttons8:hover {
+    background-color: #580202;
+}
+
+#s9 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 4280px;
+    left: 300px;
+}
+#s9 p{
+    position: absolute;
+    top: 4512px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons9 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 4545px;
+    left: 440px;
+}
+#buttons9:hover {
+    background-color: #580202;
+}
+
+#s10 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 4645px;
+    left: 300px;
+}
+#s10 p{
+    position: absolute;
+    top: 4877px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons10 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 4910px;
+    left: 440px;
+}
+#buttons10:hover {
+    background-color: #580202;
+}
+
+#s11 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 5010px;
+    left: 300px;
+}
+#s11 p{
+    position: absolute;
+    top: 5242px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons11 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 5275px;
+    left: 440px;
+}
+#buttons11:hover {
+    background-color: #580202;
+}
+
+#s12 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 5375px;
+    left: 300px;
+}
+#s12 p{
+    position: absolute;
+    top: 5607px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons12 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 5640px;
+    left: 440px;
+}
+#buttons12:hover {
+    background-color: #580202;
+}
+
+#s13 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 5740px;
+    left: 300px;
+}
+#s13 p{
+    position: absolute;
+    top: 5972px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons13 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 6005px;
+    left: 440px;
+}
+#buttons13:hover {
+    background-color: #580202;
+}
+
+#s14 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 6105px;
+    left: 300px;
+}
+#s14 p{
+    position: absolute;
+    top: 6337px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons14 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 6370px;
+    left: 440px;
+}
+#buttons14:hover {
+    background-color: #580202;
+}
+
+#s15 img{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 6470px;
+    left: 300px;
+}
+#s15 p{
+    position: absolute;
+    top: 6702px;
+    left: 315px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+#buttons15 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 6735px;
+    left: 440px;
+}
+#buttons15:hover {
+    background-color: #580202;
+}
+
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    /* padding: 20px 0; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    margin-top: -4px;
+    width: 100%;
+    height: 56px;
+}
+
+/* Style for the footer content */
+#footercontent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+}
+
+#footercontent p{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 0px 0px;
+    /* margin: 2px -10px -20px 24px; */
+    font-size: 16px;
+    background-color: #333;
+    margin-left: -1069px;
+    margin-top: 19px;
+} 
+
+/* Style for the footer links */
+/* #footercontent ul {
+    list-style: none;
+    padding: 0;
+} */
+
+/* Style for the footer link items */
+/* #footercontent li {
+    display: inline;
+    margin: 0 10px;
+} */
+
+/* Style for the footer links */
+/* #footercontent li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #333;
+} */
+#footercontent p a{
+    text-decoration: none;
+    color: rgb(135 251 26 / 91%);
+    font-weight: bold;
+    background-color: #333;
+
+}
+#footercontent p a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}

@@ -1,0 +1,160 @@
+
+#seasons li a:hover {
+    color: rgb(234, 11, 11);
+}
+.bodyimg img{
+    width: 100%;
+    height: 750px;
+}
+
+#shinchan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 44px;
+    background-color: white;
+    height: 200px;
+    border: 2px solid;
+    width: 78%;
+}
+
+#shinchan img {
+    width: 300px;
+    height: 150px;
+}
+
+#contentshinchan {
+    background-color: white;
+    /* padding: 0px 40px 9px 0px; */
+}
+
+#shinchan li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+    margin-left: 3px;
+    background: white;
+    /* padding: 1px 104px 1px 0px; */
+    font-size: 29px;
+    position: absolute;
+    color: black;
+    top: 57px;
+}
+
+#shinchan li {
+    list-style: none;
+}
+
+#shinchan p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    background: white;
+    margin-left: 3px;
+    padding-right: 40px;
+    padding-left: 0px;
+}
+
+#contentdoraemon {
+    background-color: white;
+    /* padding: 0px 40px 9px 0px; */
+}
+
+#doraemon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 342px;
+    left: 44px;
+    background-color: white;
+    height: 200px;
+    border: 2px solid;
+    width: 78%;
+}
+
+#doraemon img {
+    width: 300px;
+    height: 150px;
+}
+
+#doraemon li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+    margin-left: 3px;
+    background: white;
+    /* padding: 1px 104px 1px 0px; */
+    font-size: 29px;
+    position: absolute;
+    color: black;
+    top: 57px;
+
+}
+
+#doraemon li {
+    list-style: none;
+}
+
+#doraemon p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    background: white;
+    margin-left: 6px;
+    padding-right: 40px;
+    padding-left: 0px;
+}
+
+#contentoggy {
+    background-color: white;
+    /* padding: 0px 40px 9px 0px; */
+}
+
+#oggy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 584px;
+    left: 44px;
+    background-color: white;
+    height: 200px;
+    border: 2px solid;
+    width: 78%;
+}
+
+#oggy img {
+    width: 300px;
+    height: 150px;
+}
+
+#oggy li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+    margin-left: 3px;
+    background: white;
+    /* padding: 1px 104px 1px 0px; */
+    font-size: 29px;
+    position: absolute;
+    color: black;
+    top: 57px;
+}
+
+#oggy li {
+    list-style: none;
+}
+
+#oggy p {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #333;
+    background: white;
+    margin-left: 6px;
+    padding-right: 40px;
+    padding-left: 0px;
+}
+
