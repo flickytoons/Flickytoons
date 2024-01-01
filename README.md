@@ -3,7 +3,7 @@ name: Update README
 on:
   push:
     paths:
-      - 'path/html/base.html'
+      - '/html/base.html'
 
 jobs:
   update-readme:
@@ -20,12 +20,12 @@ jobs:
           sudo apt-get install -y pandoc
           
           # Convert HTML to Markdown
-          pandoc path/to/base.html -o path/to/converted-base.md
+          pandoc base.html -o base.md
 
       - name: Update README
         run: |
           # Replace the content in your README with the converted Markdown
-          cat path/to/converted-base.md > README.md
+          cat base.md > README.md
           
           # Commit and push the changes back to the repository
           git config --local user.email "action@github.com"
