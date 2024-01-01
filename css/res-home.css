@@ -58,7 +58,7 @@
     #shinchan p {
         display: flex;
         position: absolute;
-        /* top: 287px; */
+        top: 287px;
         bottom: 0;
         font-size: 14px;
         /* margin-left: 15px; */
@@ -118,7 +118,7 @@
     #doraemon p {
         display: flex;
         position: absolute;
-        /* top: 288px; */
+        top: 288px;
         bottom: 0;
 
         font-size: 14px;
@@ -177,7 +177,7 @@
     #oggy p {
         display: flex;
         position: absolute;
-        /* top: 288px; */
+        top: 288px;
         bottom: 0;
         font-size: 14px;
         /* margin-left: 15px; */
@@ -188,3 +188,34 @@
         padding: 0px;
     }
 }
+
+@media (min-width: 0px) and (max-width: 390px) {
+    .bodyimg img{
+        height: 1273px;
+    }
+
+    .contentshinchan{
+        height: 380px;
+        top: -1254px;
+    }
+    #shinchan li a{
+        font-size: 25px;
+    }
+    #contentdoraemon{
+        height: 380px;
+        top: -1236px;
+    }
+    #doraemon li a{
+        font-size: 24px;
+    }
+
+    #contentoggy{
+        top: -1218px;
+    }
+    #oggy li a{
+        font-size: 25px;
+    }
+    #footer{
+        margin-top: -25px;
+    }
+} 
