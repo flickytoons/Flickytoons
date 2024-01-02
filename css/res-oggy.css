@@ -507,3 +507,105 @@
 
     }
 }
+
+@media (min-width: 0px) and (max-width: 390px){
+
+    #oggyseasoncontent{
+        left: 10px;
+        height: 4500px;
+
+    }
+
+    #oggyseason h2{
+        top: 1925px;
+    }
+
+
+    #s1{
+        top: 1985px;
+    }
+    #s1 p{
+        font-size: 1.31em;
+    }
+    #buttons1{
+        padding: 13px 20px;
+    }
+
+
+    #s2{
+        top: 2300px;
+    }
+    #s2 p{
+        font-size: 1.31em;
+    }
+    #buttons2{
+        padding: 13px 20px;
+    }
+
+
+    #s3{
+        top: 2615px;
+    }
+    #s3 p{
+        font-size: 1.31em;
+    }
+    #buttons3{
+        padding: 13px 20px;
+    }
+
+
+    #s4{
+        top: 2930px;
+    }
+    #s4 p{
+        font-size: 1.31em;
+    }
+    #buttons4{
+        padding: 13px 20px;
+    }
+
+
+    #s5{
+        top: 3245px;
+    }
+    #s5 p{
+        font-size: 1.31em;
+    }
+    #buttons5{
+        padding: 13px 20px;
+    }
+
+
+    #s6{
+        top: 3560px;
+    }
+    #s6 p{
+        font-size: 1.31em;
+    }
+    #buttons6{
+        padding: 13px 20px;
+    }
+
+
+    #s7{
+        top: 3875px;
+    }
+    #s7 p{
+        font-size: 1.31em;
+    }
+    #buttons7{
+        padding: 13px 20px;
+    }
+
+
+    #s8{
+        top: 4190px;
+    }
+    #s8 p{
+        font-size: 1.31em;
+    }
+    #buttons8{
+        padding: 13px 20px;
+    }
+    
+}
