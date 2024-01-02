@@ -779,3 +779,185 @@
     
     }
 }
+
+@media (min-width: 0px) and (max-width: 390px) {
+
+    *{
+        background-size: 100% 7900px;
+    }
+
+
+    #shinchanseasoncontent{
+        left: 10px;
+        height: 7710px;
+    }
+
+    #shinchanseason h2{
+        margin-top: 1710px;
+    }
+
+    #s1{
+        top: 3027px;
+    }
+    #s1 p{
+        font-size: 1.31em;
+    }
+    #buttons1{
+        padding: 13px 20px;
+    }
+
+    #s2{
+        top: 3342px;
+    }
+    #s2 p{
+        font-size: 1.31em;
+    }
+    #buttons2{
+        padding: 13px 20px;
+    }
+
+
+    #s3{
+        top: 3657px;
+    }
+    #s3 p{
+        font-size: 1.31em;
+    }
+    #buttons3{
+        padding: 13px 20px;
+    }
+
+
+    #s4{
+        top: 3972px;
+    }
+    #s4 p{
+        font-size: 1.31em;
+    }
+    #buttons4{
+        padding: 13px 20px;
+    }
+
+
+    #s5{
+        top: 4287px;
+    }
+    #s5 p{
+        font-size: 1.31em;
+    }
+    #buttons5{
+        padding: 13px 20px;
+    }
+
+
+    #s6{
+        top: 4602px;
+    }
+    #s6 p{
+        font-size: 1.31em;
+    }
+    #buttons6{
+        padding: 13px 20px;
+    }
+
+
+    #s7{
+        top: 4917px;
+    }
+    #s7 p{
+        font-size: 1.31em;
+    }
+    #buttons7{
+        padding: 13px 20px;
+    }
+
+
+    #s8{
+        top: 5232px;
+    }
+    #s8 p{
+        font-size: 1.31em;
+    }
+    #buttons8{
+        padding: 13px 20px;
+    }
+
+
+    #s9{
+        top: 5547px;
+    }
+    #s9 p{
+        font-size: 1.31em;
+    }
+    #buttons9{
+        padding: 13px 20px;
+    }
+
+    #s10{
+        top: 5862px;
+    }
+    #s10 p{
+        font-size: 1.25em;
+    }
+    #buttons10{
+        padding: 13px 20px;
+    }
+
+
+    #s11{
+        top: 6177px;
+    }
+    #s11 p{
+        font-size: 1.25em;
+    }
+    #buttons11{
+        padding: 13px 20px;
+    }
+
+
+    #s12{
+        top: 6492px;
+    }
+    #s12 p{
+        font-size: 1.25em;
+    }
+    #buttons12{
+        padding: 13px 20px;
+    }
+
+
+    #s13{
+        top: 6807px;
+    }
+    #s13 p{
+        font-size: 1.25em;
+    }
+    #buttons13{
+        padding: 13px 20px;
+    }
+
+
+    #s14{
+        top: 7122px;
+    }
+    #s14 p{
+        font-size: 1.25em;
+    }
+    #buttons14{
+        padding: 13px 20px;
+    }
+
+
+    #s15{
+        top: 7437px;
+    }
+    #s15 p{
+        font-size: 1.25em;
+    }
+    #buttons15{
+        padding: 13px 20px;
+    }
+
+    
+
+}
