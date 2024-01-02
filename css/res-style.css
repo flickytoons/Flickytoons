@@ -128,3 +128,15 @@
     }
     
 }
+
+@media (min-width: 0px) and (max-width: 390px) {
+
+    .navbar.active .navbar-links {
+        left: -75px;
+    }
+
+    .dropdown-menu li {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+}
