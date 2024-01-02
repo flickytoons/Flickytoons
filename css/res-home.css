@@ -199,22 +199,36 @@
         top: -1254px;
     }
     #shinchan li a{
-        font-size: 25px;
+        font-size: 21px;
     }
+    #shinchan p{
+        top: 273px;
+    }
+
+
     #contentdoraemon{
         height: 380px;
         top: -1236px;
     }
     #doraemon li a{
-        font-size: 24px;
+        font-size: 20px;
     }
+    #doraemon p{
+        top: 273px;
+    }
+
 
     #contentoggy{
         top: -1218px;
     }
     #oggy li a{
-        font-size: 25px;
+        font-size: 21px;
     }
+    #oggy p{
+        top: 273px;
+    }
+
+
     #footer{
         margin-top: -25px;
     }
