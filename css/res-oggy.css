@@ -3,7 +3,7 @@
         padding: 0;
         margin: 0;
 
-        background-image: url(/flickytoons/img/building.jpg);
+        background-image: url('/flickytoons/img/building.jpg');
         background-repeat: no-repeat;
         background-size: 100% 9150px;
     }
