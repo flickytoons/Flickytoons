@@ -7,7 +7,7 @@
 
     .title{
         font-size: 30px;
-        font-family: cursive;
+        ont-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: bold;
         position: absolute;
         background-image: none;
@@ -138,8 +138,5 @@
     .dropdown-menu li {
         font-size: 15px;
         margin-bottom: 0px;
-    }
-    .tilte{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
