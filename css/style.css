@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.google.com/specimen/Recursive?query=curs');
 
 *{
     margin: 0;
@@ -28,7 +28,7 @@
 }
 .title{
     font-size: 30px;
-    font-family: cursive;
+    font-family: 'Recursive', sans-serif;
     font-weight: bold;
     position: absolute;
     margin-left: 35px;
