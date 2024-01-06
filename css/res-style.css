@@ -1,7 +1,5 @@
 @media (max-width: 768px) {
-    @font-face {
-        font-family: 'cursive';
-    }
+
     .navbar{
         height: 54px;
         background-image: none;
@@ -132,6 +130,7 @@
 }
 
 @media (min-width: 0px) and (max-width: 390px) {
+    @import url('https://fonts.google.com/specimen/Recursive?query=curs');
 
     .navbar.active .navbar-links {
         left: -75px;
@@ -140,5 +139,8 @@
     .dropdown-menu li {
         font-size: 15px;
         margin-bottom: 0px;
+    }
+    .title{
+        font-family: 'Recursive', sans-serif;
     }
 }
