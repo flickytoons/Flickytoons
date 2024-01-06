@@ -1,4 +1,5 @@
 @media (max-width: 768px) {
+    @import url('https://fonts.google.com/specimen/Recursive?query=curs');
 
     .navbar{
         height: 54px;
@@ -7,7 +8,7 @@
 
     .title{
         font-size: 30px;
-        font-family: 'cursive', sans-serif;
+        font-family: 'Recursive', sans-serif;
         font-weight: bold;
         position: absolute;
         background-image: none;
